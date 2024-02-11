@@ -68,7 +68,7 @@ const FileConverter = () => {
             <option value="jpeg">JPEG</option>
             <option value="png">PNG</option>
             <option value="bmp">BMP</option>
-            <option value="gif">GIF</option>
+            <option value="jpg">JPG</option>
             <option value="tiff">TIFF</option>
             <option value="webp">WEBP</option>
           </>

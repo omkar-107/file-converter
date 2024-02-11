@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# A to Z Multiple Media File Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a multiple media file converter built with React and FFmpeg. It allows you to convert images, videos, and audio files to various formats.
 
-## Available Scripts
 
-In the project directory, you can run:
+![Media Converter](/public/file.png)
+![Media Converter](/public/file2.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Drag and drop file upload
+- Supports conversion of images, videos, and audio files
+- Selectable output format
+- Download link for the converted file
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
 
-### `npm test`
+1. Drag and drop a file into the designated area or click to select a file.
+2. Once a file is selected, choose the desired output format from the dropdown menu.
+3. Click the "Convert" button to start the conversion process.
+4. After the conversion is complete, a download link will appear. Click the link to download the converted file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Supported Formats
 
-### `npm run build`
+### Images
+- JPEG
+- PNG
+- BMP
+- TIFF
+- WEBP
+- jpg
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Videos
+- MP4
+- WebM
+- AVI
+- MKV
+- MOV
+- FLV
+- GIF
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Audio
+- MP3
+- OGG
+- WAV
+- AAC
+- FLAC
+- M4A
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+This project was bootstrapped with Create React App. To get started, clone the repository and install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/omkar-107/file-converter
+cd file-converter
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
