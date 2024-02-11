@@ -16,7 +16,7 @@ function Component() {
          
           {/* GitHub button on the right */}
           <div className="ml-4 flex items-center md:ml-6">
-            <a href="https://github.com/omkar-107/"  target="_blank" className="text-white bg-orange-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+            <a href="https://github.com/omkar-107/file-converter"  target="_blank" className="text-white bg-orange-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
               GitHub
             </a>
           </div>

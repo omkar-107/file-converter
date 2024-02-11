@@ -23,7 +23,7 @@ function AboutSection() {
        
       </div>
       <div className="mt-6 text-center">
-        <a href="https://github.com/omkar-107" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 font-semibold inline-block">
+        <a href="https://github.com/omkar-107/file-converter" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 font-semibold inline-block">
           Visit On GitHub
         </a>
         

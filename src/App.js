@@ -29,7 +29,7 @@ function App() {
       
       <Hero/>
       <FileConverter/>
-      if (!ready) {
+      {!ready &&
        <p>Loading...</p>
       }
       <AboutSection/>
